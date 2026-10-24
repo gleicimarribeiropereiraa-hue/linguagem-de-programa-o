@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="center">
+                <a href="" class="logo"></a>
+        <ul>
+           <li><a href="./hobbies.html">Hobbies</a></li>
+            <li><a href="./registro.html">Nova Conta</a></li>
+            <li><a href="./login.html">login</a></li>
+            <li><a href="./cadastro_produto.html">Cadastro de Produtos</a></li>
+           
+        </ul>
+        </div>
+        
+    </header> 
+  
+    <section>
+        <div class="center">
+             <form action="#" method="post">
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+
+        <label for="idade">Faixa etária:</label>
+        <select id="idade" name="idade" required>
+            <option value="">Selecione</option>
+            <option value="menor18">Até 17 anos</option>
+            <option value="18-25">18 a 25 anos</option>
+            <option value="26-35">26 a 35 anos</option>
+            <option value="36-50">36 a 50 anos</option>
+            <option value="51+">51 anos ou mais</option>
+        </select>
+
+        <br><br>
+
+        <p>Quais são seus hobbies favoritos?</p>
+
+        <input type="checkbox" id="leitura" name="hobbies" value="Leitura">
+        <label for="leitura">Leitura</label>
+        <br>
+
+        <input type="checkbox" id="esportes" name="hobbies" value="Esportes">
+        <label for="esportes">Esportes</label>
+        <br>
+
+        <input type="checkbox" id="jogos" name="hobbies" value="Jogos">
+        <label for="jogos">Jogos eletrônicos</label>
+        <br>
+
+        <input type="checkbox" id="musica" name="hobbies" value="Música">
+        <label for="musica">Música</label>
+        <br>
+
+        <input type="checkbox" id="tecnologia" name="hobbies" value="Tecnologia">
+        <label for="tecnologia">Tecnologia</label>
+        <br>
+
+        <input type="checkbox" id="artesanato" name="hobbies" value="Artesanato">
+        <label for="artesanato">Artesanato</label>
+        <br><br>
+
+        <p>Qual é seu nível de experiência no hobby principal?</p>
+
+        <input type="radio" id="iniciante" name="experiencia" value="Iniciante" required>
+        <label for="iniciante">Iniciante</label>
+        <br>
+
+        <input type="radio" id="intermediario" name="experiencia" value="Intermediário">
+        <label for="intermediario">Intermediário</label>
+        <br>
+
+        <input type="radio" id="avancado" name="experiencia" value="Avançado">
+        <label for="avancado">Avançado</label>
+        <br><br>
+
+        <label for="comentarios">Conte um pouco mais sobre seus interesses:</label>
+        <br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea>
+
+        <br><br>
+
+        <input  name="acao" type="submit">
+        <button type="reset">Limpar formulário</button>
+
+    </form>
+        </div>
+    </section>
+</body>
+</html>
