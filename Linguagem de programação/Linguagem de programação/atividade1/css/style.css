@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.center{
+    padding:  0 2%;
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    height: 30vh;
+    background-color: rgb(251, 252, 252);
+    place-items: center;
+    place-content: center;
+}
+header .center{
+    justify-content: space-between;
+}
+header .logo{
+    background-image: url(../logo/logo-ia-simbolo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 88px;
+    height: 88px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.menu li{
+   margin-left:2rem;
+}
+
+.menu li a{
+    font-size: 23px;
+    color: darkgray;
+}
+menu li a:hover{
+    color: white;
+    transition: all 3s;
+    border-bottom:  2px solid white;
+}
+section.banner{
+    display: flex;
+    background-image:url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    padding: 30px 0;
+}
+.banner h2{
+    text-align: center;
+    color: white;
+}
+
+
+h2{
+    font-size: 28px;
+    color: black;
+    font-weight: 600;
+}
+section.ia,.llm,.agente_ia,.ap_maq,.ia_gen{
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 2rem;
+}
+.llm{
+        background-color: rgb(161, 180, 214);
+}
+.agente_ia{
+            background-color: rgb(207, 220, 243);
+
+}
+.ap_maq{
+        background-color: rgb(183, 207, 248);
+
+}
+.ia_gen{
+    background-color: rgb(86, 117, 172);
+}
+.center h1{
+    place-content: center;
+    font-size: 5rem;
+    color: white;
+}
+.ia-2 h2,.llm h2,.agente h2,.maq h2,.gen h2{
+    font-size: 3rem ;
+}
+.ia-2  p,.llm p,.agente p,.maq p,.gen p{
+text-align: justify;
+}
+
+
+footer{
+    place-items: center;
+    height: 3rem;
+    place-content: center;
+    background-color: azure;
+}

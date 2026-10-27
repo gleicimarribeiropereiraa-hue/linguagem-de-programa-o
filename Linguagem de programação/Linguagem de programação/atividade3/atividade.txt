@@ -1,0 +1,10 @@
+Crie formularios web  de acordo  com as instruções e e layaouts a seguir
+
+
+A um Formulário  de fale conosco
+B Pesquisa de hobbies e perfil com faixa etária e nível de experiência
+C Formulario de cadastro de nova conta
+D Formulário de login
+E Formulário de cadastro de produtos em estoque
+
+Da página inicial chame as outras
