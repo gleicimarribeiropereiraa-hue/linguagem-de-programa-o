@@ -1,0 +1,19 @@
+# Atividade prática — JavaScript
+
+## Como executar
+1. Extraia o ZIP para uma pasta.
+2. Abra `index.html` no navegador (Chrome, Edge ou Firefox).
+3. Escolha uma das três atividades.
+4. Cada questão possui sua própria página HTML e arquivo JavaScript.
+
+## Páginas
+- `imc.html`: recebe peso em kg e altura em metros.
+- `area.html`: círculo, quadrado, retângulo e triângulo (medidas em cm).
+- `juros.html`: recebe valor em reais e percentual de juros.
+
+## Testes demonstrativos
+- IMC: 70 kg / 1,75 m = 22,86.
+- Área: retângulo 8 cm × 5 cm = 40 cm².
+- Juros: R$ 1.000,00 com 10% = acréscimo de R$ 100,00 e total de R$ 1.100,00.
+
+Preencha os nomes dos três integrantes no PDF antes da entrega.

@@ -1,0 +1,13 @@
+
+*{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;background:#f3f6fb;color:#182230}
+header{background:#183b67;color:white;padding:24px 18px;text-align:center}
+header h1{margin:0 0 8px;font-size:25px} header p{margin:0;color:#dce8f7}
+main{max-width:760px;margin:32px auto;padding:0 18px}
+.card{background:#fff;border-radius:14px;padding:26px;box-shadow:0 8px 24px #16385b18}
+label{display:block;font-weight:700;margin:16px 0 7px}
+input,select{width:100%;padding:12px;border:1px solid #c8d3e0;border-radius:8px;font-size:16px}
+button{margin-top:20px;background:#1769aa;color:white;border:0;border-radius:8px;padding:12px 20px;font-size:16px;font-weight:700;cursor:pointer}
+button:hover{background:#105486}.result{margin-top:20px;padding:15px;border-radius:9px;background:#e8f3ff;min-height:48px;font-weight:700}
+nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}nav a{color:#1769aa;text-decoration:none;font-weight:700}
+.hint{font-size:13px;color:#5d6b7b;margin-top:12px}
+footer{text-align:center;color:#66758a;font-size:13px;margin:30px}
