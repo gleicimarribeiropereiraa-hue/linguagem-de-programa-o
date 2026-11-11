@@ -18,12 +18,20 @@ ul,a{
 }
 
 header{
-    height: 20vh;
-    background-color: rgb(198, 242, 253);
+    height: 30vh;
+    background-color: rgb(251, 252, 252);
+    place-items: center;
     place-content: center;
 }
 header .center{
     justify-content: space-between;
+}
+header .logo{
+    background-image: url(../logo/logo-ia-simbolo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 88px;
+    height: 88px;
 }
 .menu {
     display: flex;
@@ -50,6 +58,7 @@ section.banner{
     background-position: center;
     background-repeat: no-repeat;
     min-height: 50vh;
+    padding: 30px 0;
 }
 .banner h2{
     text-align: center;
@@ -62,6 +71,41 @@ h2{
     color: black;
     font-weight: 600;
 }
-section.ia >h2{
+section.ia,.llm,.agente_ia,.ap_maq,.ia_gen{
     text-align: center;
+    background-color: cornflowerblue;
+    padding: 2rem;
+}
+.llm{
+        background-color: rgb(161, 180, 214);
+}
+.agente_ia{
+            background-color: rgb(207, 220, 243);
+
+}
+.ap_maq{
+        background-color: rgb(183, 207, 248);
+
+}
+.ia_gen{
+    background-color: rgb(86, 117, 172);
+}
+.center h1{
+    place-content: center;
+    font-size: 5rem;
+    color: white;
+}
+.ia-2 h2,.llm h2,.agente h2,.maq h2,.gen h2{
+    font-size: 3rem ;
+}
+.ia-2  p,.llm p,.agente p,.maq p,.gen p{
+text-align: justify;
+}
+
+
+footer{
+    place-items: center;
+    height: 3rem;
+    place-content: center;
+    background-color: azure;
 }
