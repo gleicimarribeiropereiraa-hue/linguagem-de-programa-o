@@ -5,23 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade</title>
     <link rel="stylesheet" href="css/style.css">
+    <script  defer src="js/atividade1.js"></script>
 </head>
 <body>
     <header>
-        <div class="center">
-            <h1>Atividade Javascript</h1>
-        </div>
-       </header> 
-       <section class="atividade">
-            <div class="center">
-                <a href="#">Atividade 1</a>
-                <a href="#"> Atividade 2</a>
-                <a href="#"> Atividade 3</a>
-            </div>
-        
-       </section>
-        
+    <h1>Atividades de HTML e JavaScript</h1>
+    <p>Três exercícios com entrada de dados, processamento e resultados.</p>
+  </header>
 
+  <main>
+    <!-- QUESTÃO 1 -->
+    <section class="atividade">
+      <h2>Questão 1 — Saudação por turno</h2>
+      <p class="descricao">Digite M para Matutino, V para Vespertino ou N para Noturno.</p>
+
+      <label for="turno">Turno em que você estuda</label>
+      <input id="turno" type="text" maxlength="1" placeholder="Ex.: M" autocomplete="off">
+      <br>
+      <button type="button" id="btnTurno">Ver saudação</button>
+
+      <div class="resultado" id="resultadoTurno" aria-live="polite"></div>
+    </section>
+
+    <!-- QUESTÃO 2 -->
+    <section class="atividade">
+      <h2>Questão 2 — Média e conceito do aluno</h2>
+      <p class="descricao">Informe as duas notas parciais. O sistema calculará a média, o conceito e a situação.</p>
+
+      <label for="nota1">Primeira nota (0 a 10)</label>
+      <input id="nota1" type="number" min="0" max="10" step="0.1" placeholder="Ex.: 8.5">
+
+      <label for="nota2">Segunda nota (0 a 10)</label>
+      <input id="nota2" type="number" min="0" max="10" step="0.1" placeholder="Ex.: 7.5">
+
+      <br>
+      <button type="button" id="btnMedia">Calcular média</button>
+      <div class="nota">A média e o conceito serão exibidos em uma janela de alerta, conforme solicitado no enunciado.</div>
+    </section>
+
+    <!-- QUESTÃO 3 -->
+    <section class="atividade">
+      <h2>Questão 3 — Reajuste salarial</h2>
+      <p class="descricao">Informe o salário atual do colaborador para calcular o percentual de reajuste e o novo salário.</p>
+
+      <label for="salario">Salário atual (R$)</label>
+      <input id="salario" type="number" min="0" step="0.01" placeholder="Ex.: 3500.00">
+
+      <br>
+      <button type="button" id="btnReajuste">Calcular reajuste</button>
+      <div class="resultado" id="resultadoSalario" aria-live="polite"></div>
+      <p class="nota">Faixas adotadas: até R$ 2.800,00 = 20%; acima de R$ 2.800,00 até R$ 7.000,00 = 15%; acima de R$ 7.000,00 até R$ 15.000,00 = 10%; acima de R$ 15.000,00 = 5%.</p>
+    </section>
+  </main>
+
+  <footer>Atividade de JavaScript — Organizações Trilhas</footer>
     
 </body>
 </html>

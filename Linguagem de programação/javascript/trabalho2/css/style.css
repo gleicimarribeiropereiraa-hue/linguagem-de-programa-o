@@ -92,35 +92,50 @@ p {
     overflow-wrap: break-word;
 }
 
-header{
-    background-color: blueviolet;
-    height: 30vh;
-    place-items: center;
-    place-content: center;
-}
-.center{
-    display: flex;
-    max-width: 100%;
-    width: 1280px;
-}
-header h1{
- color: #fff;
- font-size: 3rem;
-}
-section{
-     place-content: center;
-}
-section.atividade{
-   
-    height: 100vh;
-    display: flex;
-
-    background-color: aliceblue;
-    text-align: center;
-    justify-content: space-between;
-}
-
-a{
-    font-size: 27px;
-    color: cadetblue;
-}
+body {
+      margin: 0; font-family: Arial, Helvetica, sans-serif;
+      background: #f3f5f9; color: #202938; line-height: 1.5;
+    }
+    header {
+      background: #2754e6; color: white; padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 8px; font-size: clamp(1.5rem, 4vw, 2.2rem); }
+    header p { margin: 0; color: #dbeafe; }
+    main { width: min(100% - 32px, 980px); margin: 28px auto 48px; }
+    .atividade {
+      background: white; border-radius: 14px; padding: 24px;
+      margin-bottom: 22px; box-shadow: 0 5px 18px rgba(15, 23, 42, .07);
+      border: 1px solid #e5eaf2;
+    }
+    .atividade h2 { margin: 0 0 8px; color: #5e6fa8; font-size: 1.35rem; }
+    .descricao { margin: 0 0 18px; color: #5b6472; }
+    label { display: block; font-weight: 700; margin: 13px 0 6px; }
+    input {
+      width: 100%; max-width: 420px; padding: 12px 13px;
+      border: 1px solid #cbd5e1; border-radius: 8px; font-size: 1rem;
+    }
+    input:focus { outline: 3px solid #bfdbfe; border-color: #2563eb; }
+    button {
+      display: inline-block; margin-top: 16px; border: 0; border-radius: 8px;
+      padding: 11px 18px; background: #25ebc0; color: white;
+      font-weight: 700; font-size: .98rem; cursor: pointer;
+    }
+    button:hover { background: #1d4ed8; }
+    .resultado {
+      margin-top: 18px; padding: 14px 16px; border-radius: 8px;
+      background: #eff6ff; border-left: 4px solid #2563eb; min-height: 48px;
+    }
+    .resultado:empty { display: none; }
+    .resultado h2 { margin: 0; }
+    .resultado p { margin: 5px 0; }
+    .resultado strong { color: #172554; }
+    .mensagem-erro { color: #b91c1c; font-weight: 700; }
+    .aprovado { color: #166534; font-weight: 700; }
+    .reprovado { color: #b91c1c; font-weight: 700; }
+    .nota { color: #64748b; font-size: .9rem; margin-top: 10px; }
+    footer { text-align: center; color: #64748b; padding: 0 16px 25px; font-size: .9rem; }
+    @media (max-width: 600px) {
+      .atividade { padding: 19px; }
+      input { max-width: 100%; }
+    }
