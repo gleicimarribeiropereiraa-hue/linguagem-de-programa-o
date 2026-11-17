@@ -1,0 +1,12 @@
+Crie uma aplicação Web com html e Javascript que permita ao usuário ver informações sobre as seguintes questões(crie como mapa mental) atividade em trio:
+a- O que é uma função em JS.
+b- O que é uma estrutura condicional SE de o exemplo.
+c- Para que serve o Else?
+d- Qual é a funcionalidade do FOR(Para) em programação?
+e- Quais são as estruturas condicionais e as estruturas de repetição;
+f- Qual a tag html responsavel por gerar links.
+g- Quais são os tipos de input para texto, numeros e datas?
+h- Qual a estrutura básica de TAGs html?
+i- Qual a forma de criar listas de seleção em HTML?
+
+Entrega: Print com a atividade em execução, exiba o nome do trio com uma tag de título principal no seu site.
