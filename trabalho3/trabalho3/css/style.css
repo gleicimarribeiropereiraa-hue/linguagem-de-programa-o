@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. Remover margens e paddings inconsistentes */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 3. Configurações do HTML */
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+/* 4. Configurações do Body */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Imagens e mídias */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 6. Formulários */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 7. Botões */
+button {
+    cursor: pointer;
+}
+
+/* 8. Links */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 9. Listas */
+ul,
+ol {
+    list-style: none;
+}
+
+/* 10. Títulos e textos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font: inherit;
+}
+
+/* 11. Tabelas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 12. Textarea */
+textarea {
+    resize: vertical;
+}
+
+/* 13. Elementos de texto */
+p {
+    overflow-wrap: break-word;
+}
+.center{
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+        flex-wrap: wrap;
+}
+.center h2{
+   text-align: center;
+}
+header{
+    background: rgba(194, 194, 194, 0.678);
+    height: 15vh;
+    place-items: center;
+    place-content: center;
+   
+}
+
+header h2{
+    font-size: 2.8rem;
+    color:white;
+    
+
+}
+.atividade{
+    background-color: cadetblue;
+    min-height: 100vh;
+}
+.atividade h2{
+    width: 100%;
+    font-size: 1.5rem;
+}
+.conceito{
+   min-width: 100vw;
+    background-color: white;
+    height: auto;
+    padding: 1.2rem;
+    margin:2rem 0;
+}
+.conceito h3{
+    text-align: center;
+    padding: 2rem;
+}
+
+.conceito p{
+text-align: justify;}
